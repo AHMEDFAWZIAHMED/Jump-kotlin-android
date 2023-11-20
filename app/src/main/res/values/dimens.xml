@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="linear_layout">0dp</dimen>
+    <dimen name="image_view">0dp</dimen>
+    <dimen name="control">15dp</dimen>
+</resources>

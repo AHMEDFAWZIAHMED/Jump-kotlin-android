@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frame"
+    android:background="@color/light_blue_600"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_constraintHeight_percent="0.25"
+    app:layout_constraintWidth_percent="0.25"
+    tools:context=".StartGame">
+
+    <ImageView
+        android:id="@+id/player2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/player2ar192"
+        android:layout_gravity="start|center"
+        android:layout_marginStart="@dimen/control"
+        android:contentDescription="End turn" />
+
+    <ImageView
+        android:id="@+id/player1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/player1ar192"
+        android:layout_gravity="end|center"
+        android:layout_marginEnd="@dimen/control"
+        android:contentDescription="End turn" />
+
+    <ImageView
+        android:id="@+id/undo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/undo192p2"
+        android:layout_gravity="top|start"
+        android:layout_marginStart="@dimen/control"
+        android:layout_marginBottom="@dimen/control"
+        android:contentDescription="Undo" />
+
+    <ImageView
+        android:id="@+id/p1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/endturn192ar1"
+        android:layout_gravity="top|end"
+        android:layout_marginEnd="@dimen/control"
+        android:layout_marginBottom="@dimen/control"
+        android:contentDescription="End turn"/>
+
+    <ImageView
+        android:id="@+id/p2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/endturn192ar2"
+        android:layout_gravity="bottom|start"
+        android:layout_marginStart="@dimen/control"
+        android:layout_marginTop="@dimen/control"
+        android:contentDescription="End turn" />
+
+    <ImageView
+        android:id="@+id/undo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/undo192p1"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/control"
+        android:layout_marginTop="@dimen/control"
+        android:contentDescription="Undo"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/board501"
+        android:layout_gravity="center"
+        android:contentDescription="background"/>
+
+    <LinearLayout
+        android:id="@+id/board"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="3dp"
+        android:layout_marginEnd="1.5dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/row0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/linear_layout"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/holder4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/placeholder192"
+                android:layout_margin="@dimen/image_view"
+                android:contentDescription="place holder" />
+
+            <ImageView
+                android:id="@+id/holder3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/placeholder192"
+                android:layout_margin="@dimen/image_view"
+                android:contentDescription="place holder" />
+
+            <ImageView
+                android:id="@+id/holder2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/placeholder192"
+                android:layout_margin="@dimen/image_view"
+                android:contentDescription="place holder" />
+
+            <ImageView
+                android:id="@+id/holder1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/placeholder192"
+                android:layout_margin="@dimen/image_view"
+                android:contentDescription="place holder" />
+
+            <ImageView
+                android:id="@+id/holder0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/placeholder192"
+                android:layout_margin="@dimen/image_view"
+                android:contentDescription="place holder" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/row1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/linear_layout"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/holder9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/placeholder192"
+                android:layout_margin="@dimen/image_view"
+                android:contentDescription="place holder" />
+
+            <ImageView
+                android:id="@+id/holder8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/placeholder192"
+                android:layout_margin="@dimen/image_view"
+                android:contentDescription="place holder" />
+
+            <ImageView
+                android:id="@+id/holder7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/placeholder192"
+                android:layout_margin="@dimen/image_view"
+                android:contentDescription="place holder" />
+
+            <ImageView
+                android:id="@+id/holder6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/placeholder192"
+                android:layout_margin="@dimen/image_view"
+                android:contentDescription="place holder" />
+
+            <ImageView
+                android:id="@+id/holder5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/placeholder192"
+                android:layout_margin="@dimen/image_view"
+                android:contentDescription="place holder" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/row2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/linear_layout"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/holder14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/placeholder192"
+                android:layout_margin="@dimen/image_view"
+                android:contentDescription="place holder" />
+
+            <ImageView
+                android:id="@+id/holder13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/placeholder192"
+                android:layout_margin="@dimen/image_view"
+                android:contentDescription="place holder" />
+
+            <ImageView
+                android:id="@+id/holder12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/placeholder192"
+                android:layout_margin="@dimen/image_view"
+                android:contentDescription="place holder" />
+
+            <ImageView
+                android:id="@+id/holder11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/placeholder192"
+                android:layout_margin="@dimen/image_view"
+                android:contentDescription="place holder" />
+
+            <ImageView
+                android:id="@+id/holder10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/placeholder192"
+                android:layout_margin="@dimen/image_view"
+                android:contentDescription="place holder" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/row3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/linear_layout"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/holder19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/placeholder192"
+                android:layout_margin="@dimen/image_view"
+                android:contentDescription="place holder" />
+
+            <ImageView
+                android:id="@+id/holder18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/placeholder192"
+                android:layout_margin="@dimen/image_view"
+                android:contentDescription="place holder" />
+
+            <ImageView
+                android:id="@+id/holder17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/placeholder192"
+                android:layout_margin="@dimen/image_view"
+                android:contentDescription="place holder" />
+
+            <ImageView
+                android:id="@+id/holder16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/placeholder192"
+                android:layout_margin="@dimen/image_view"
+                android:contentDescription="place holder" />
+
+            <ImageView
+                android:id="@+id/holder15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/placeholder192"
+                android:layout_margin="@dimen/image_view"
+                android:contentDescription="place holder" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/row4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/linear_layout"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/holder24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/placeholder192"
+                android:layout_margin="@dimen/image_view"
+                android:contentDescription="place holder" />
+
+            <ImageView
+                android:id="@+id/holder23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/placeholder192"
+                android:layout_margin="@dimen/image_view"
+                android:contentDescription="place holder" />
+
+            <ImageView
+                android:id="@+id/holder22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/placeholder192"
+                android:layout_margin="@dimen/image_view"
+                android:contentDescription="place holder" />
+
+            <ImageView
+                android:id="@+id/holder21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/placeholder192"
+                android:layout_margin="@dimen/image_view"
+                android:contentDescription="place holder" />
+
+            <ImageView
+                android:id="@+id/holder20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/placeholder192"
+                android:layout_margin="@dimen/image_view"
+                android:contentDescription="place holder" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

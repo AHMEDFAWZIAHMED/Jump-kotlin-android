@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/menu"
+    android:background="@drawable/background_menu"
+    tools:context=".FullscreenActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo"
+        android:layout_gravity="bottom|start"
+        android:contentDescription="@string/description_logo"
+        android:src="@drawable/logo192new3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lang"
+        android:layout_gravity="top|end"
+        android:src="@drawable/english192" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/b1"
+        android:background="@drawable/background_and_border"
+        android:alpha="0.8"
+        android:text="@string/one"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_gravity="top|center" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/b2"
+        android:background="@drawable/background_and_border"
+        android:alpha="0.8"
+        android:text="@string/two"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_gravity="top|center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/how"
+        android:background="@drawable/background_and_border"
+        android:alpha="0.8"
+        android:text="@string/three"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_gravity="top|center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/b3"
+        android:background="@drawable/background_and_border"
+        android:alpha="0.8"
+        android:text="@string/four"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_gravity="top|center"/>
+
+</FrameLayout>

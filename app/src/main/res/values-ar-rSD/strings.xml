@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="one">لاعب واحد</string>
+    <string name="two">لاعبان</string>
+    <string name="three">طريقة اللعب</string>
+    <string name="four">خروج</string>
+    <string name="s_one">مبتدئ</string>
+    <string name="s_two">محترف</string>
+    <string name="s_three">رجوع</string>
+    <string name="restart">اللعب مرة أخرى</string>
+    <string name="back_to_menu">القائمة الرئيسية</string>
+    <string name="game_over">نهاية اللعبة</string>
+    <string name="game_over0">تعادل</string>
+    <string name="game_over1">الفائز هو اللاعب 1</string>
+    <string name="game_over2">الفائز هو اللاعب 2</string>
+    <string name="How_to_play_1">
+        "لعبة نط الكلب\n"
+        "حرك الحجر بضغطه ثم اضغط الخانة الفارغة. "
+        "حجر واحد يتحرك مرة واحدة في كل دور. "
+        "الحركة الممكنة للحجر هي اول خانة فارغة في الاتجاهات الأربعة. "
+        "الاتجاهات الأربعة هي: فوق, تحت, يمين, يسار. "
+        "بعد الحركة اضغط زر نهاية الدور الموجود على يمينك. أو تراجع بضغط الزر على يسارك."
+    </string>
+    <string name="How_to_play_2">
+        "بالاضافة للحركة, يمكن للحجر القفز خطوتين في حركة واحدة.\n"
+        "يمكن القفز في حالة وجود حجر اللاعب الآخر امام حجرك, ووجود خانة فارغة خلفه في نفس الاتجاه. "
+        "بعد القفز تتم ازالة حجر اللاعب الآخر."
+    </string>
+    <string name="How_to_play_3">
+        "يمكن القفز مجددا في الدور الواحد.\n"
+        "القفز في اتجاه واحد…"
+    </string>
+    <string name="How_to_play_4">
+        "أو في عدة اتجاهات"
+    </string>
+    <string name="How_to_play_5">
+        "تنتهي اللعبة بفوز من يمتلك آخر حجر/حجارة في ساحة اللعب, "
+        "أو في حالة التعادل بعد العد التنازلي… \n"
+        "الذي يبدأ بعد نقص عدد الحجارة لخمسة أو أقل للاعب الواحد."
+    </string>
+</resources>

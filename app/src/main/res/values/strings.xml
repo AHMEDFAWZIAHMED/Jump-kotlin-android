@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name" translatable="false">Jump</string>
+    <string name="one">One player</string>
+    <string name="two">Two player</string>
+    <string name="three">How to play</string>
+    <string name="four">Exit</string>
+    <string name="s_one">Easy</string>
+    <string name="s_two">Hard</string>
+    <string name="s_three">Back</string>
+    <string name="restart">Play again</string>
+    <string name="back_to_menu">Main menu</string>
+    <string name="game_over">Game over</string>
+    <string name="game_over0">Draw</string>
+    <string name="game_over1">Player 1 win!</string>
+    <string name="game_over2">Player 2 win!</string>
+    <string name="title_activity_start_game" translatable="false">StartGame</string>
+    <string name="How_to_play_1">
+        "Strategy game\n"
+        "Board contains 25 squares. And for every player 12 Rocks. "
+        "In your turn press on one Rock and select one of four directions. "
+        "Directions are: up, down, left, right. "
+        "Rock can move to new position only if it's empty. "
+        "Move is one step. "
+        "Press end turn if you done, or undo to reset last move."
+    </string>
+    <string name="How_to_play_2">
+        "Unlike move, jump is two steps\n"
+        "When opponents Rock is on the next position to your Rock, "
+        "and their is an empty position in the same direction after "
+        "opponents Rock, you can move/jump. "
+        "After jump, the opponents Rock will be removed from play."
+    </string>
+    <string name="How_to_play_3">
+        "Rock can jump multiple times in one turn.\n"
+        "It can be in one direction…"
+    </string>
+    <string name="How_to_play_4">
+        "Or in different direction"
+    </string>
+    <string name="How_to_play_5">
+        "Last one standing wins!\n"
+        "Unless one or both players has five or less Rocks, "
+        "and the countdown reach zero, then it's draw.\n"
+        "Ready to try?"
+    </string>
+    <string name="description_logo" translatable="false">Logo</string>
+</resources>
